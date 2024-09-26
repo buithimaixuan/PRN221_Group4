@@ -10,3 +10,14 @@ Author URI  : https://themeforest.net/user/themelooks
 You can write your custom css styles in this file...
 
 */
+.header--section.style--1 {
+
+}
+
+#header--toppart > container {
+
+}
+
+#sticky--wrapper {
+    background: #6ab04c;
+}
