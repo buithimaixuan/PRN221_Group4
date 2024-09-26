@@ -21,3 +21,7 @@ You can write your custom css styles in this file...
 #sticky--wrapper {
     background: #6ab04c;
 }
+
+.footer--section .widget a {
+    color: white;
+}
