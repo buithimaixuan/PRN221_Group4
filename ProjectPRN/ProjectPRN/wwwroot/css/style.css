@@ -278,7 +278,7 @@ a:focus {
 }
 
 .nav li a {
-    color: inherit;
+    color: black;
 }
 
 .nav li a:focus,
@@ -4959,6 +4959,11 @@ body.isScrolling #backToTop {
     transition-property: color, background-color, box-shadow;
     transition-duration: .25s;
     transition-timing-function: ease-in-out;
+}
+
+.header--navbar > container {
+    display: flex;
+    flex-direction: row;
 }
 
 .is-sticky .header--navbar {

@@ -11,31 +11,29 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProjectPRN.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/plugins.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/responsive-style.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/colors/color-1.css" asp-append-version="true" id="changeColorScheme" />
-    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/1bd9fa3a2e.js" crossorigin="anonymous"></script>
 </head>
 <body class="wrapper">
     <!-- Header Section Start -->
     <header class="header--section style--1">
+
         <!-- Header Topbar Start -->
-        <div class="header--topbar bg-black">
+        <div id="header--toppart" class="header--topbar bg-white">
             <div class="container">
                 <!-- Header Topbar Links Start -->
                 <ul class="header--topbar-links nav ff--primary float--left">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <span>En</span>
-                            <i class="fa fa-caret-down"></i>
+                            <span>VIE</span>
                         </a>
 
                         <ul class="dropdown-menu">
-                            <li class="active"><a href="#">En</a></li>
-                            <li><a href="#">Bn</a></li>
-                            <li><a href="#">In</a></li>
+                            <li class="active"><a href="#">VIE</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -51,12 +49,14 @@
                 <!-- Header Topbar Social End -->
                 <!-- Header Topbar Links Start -->
                 <ul class="header--topbar-links nav ff--primary float--right">
-                    <li>
+
+                    @* ELEMENT CART *@
+                    @* <li>
                         <a href="cart.html" title="Cart" data-toggle="tooltip" data-placement="bottom">
                             <i class="fa fa-shopping-basket"></i>
                             <span class="badge">3</span>
                         </a>
-                    </li>
+                    </li> *@
                     <li>
                         <a href="#" class="btn-link">
                             <i class="fa mr--8 fa-user-o"></i>
@@ -68,8 +68,9 @@
             </div>
         </div>
         <!-- Header Topbar End -->
+
         <!-- Header Navbar Start -->
-        <div class="header--navbar navbar bg-black" data-trigger="sticky">
+        <div id="sticky--wrapper" class="header--navbar navbar" data-trigger="sticky">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
@@ -81,15 +82,15 @@
 
                     <!-- Header Navbar Logo Start -->
                     <div class="header--navbar-logo navbar-brand">
-                        <a href="index.html">
-                            <img src="~/image/logo.jpg" class="normal" alt="">
+                        <a href="">
+                            <img src="~/image/logo.jpg" class="normal" alt="" style="width: 138px; height: 80px;">
                             <img src="~/image/logo.jpg" class="sticky" alt="">
                         </a>
                     </div>
                     <!-- Header Navbar Logo End -->
                 </div>
 
-                <div id="headerNav" class="navbar-collapse collapse float--right">
+                <div id="headerNav" class="float--right">
                     <!-- Header Nav Links Start -->
                     <ul class="header--nav-links style--1 nav ff--primary">
                         <li class="dropdown">
@@ -99,10 +100,10 @@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a href="home-1.html"><span>Home Version 1</span></a></li>
-                                <li><a href="home-2.html"><span>Home Version 2</span></a></li>
-                                <li><a href="home-3.html"><span>Home Version 3</span></a></li>
-                                <li><a href="home-4.html"><span>Home Version 4</span></a></li>
+                                <li><a href=""><span>Home Version 1</span></a></li>
+                                <li><a href=""><span>Home Version 2</span></a></li>
+                                <li><a href=""><span>Home Version 3</span></a></li>
+                                <li><a href=""><span>Home Version 4</span></a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -112,9 +113,9 @@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a href="activity.html"><span>Activity</span></a></li>
-                                <li><a href="members.html"><span>Members</span></a></li>
-                                <li><a href="groups.html"><span>Groups</span></a></li>
+                                <li><a href=""><span>Activity</span></a></li>
+                                <li><a href=""><span>Members</span></a></li>
+                                <li><a href=""><span>Groups</span></a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -124,45 +125,46 @@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a href="forums.html">Forums</a></li>
-                                <li><a href="sub-forums.html">Sub Forums</a></li>
-                                <li><a href="topics.html">Topics</a></li>
-                                <li><a href="topic-replies.html">Topic Replies</a></li>
+                                <li><a href="">Forums</a></li>
+                                <li><a href="">Sub Forums</a></li>
+                                <li><a href="">Topics</a></li>
+                                <li><a href="">Topic Replies</a></li>
                             </ul>
                         </li>
                         
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <span>Products</span>
+                                <span>News</span>
                                 @* <i class="fa fa-caret-down"></i> *@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a href="products.html">Products</a></li>
-                                <li><a href="product-details.html">Product Details</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="">News category 1</a></li>
+                                <li><a href="">News category 2</a></li>
+                                <li><a href="">News category 3</a></li>
+                                <li><a href="">News category 4</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <span>Blog</span>
+                                <span>Services</span>
                                 @* <i class="fa fa-caret-down"></i> *@
                             </a>
 
                             <ul class="dropdown-menu">
-                                <li><a href="blog-sidebar-right.html">Blog Sidebar Right</a></li>
-                                <li><a href="blog-sidebar-left.html">Blog Sidebar Left</a></li>
-                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="">List of expert</a></li>
+                                <li><a href="">Service 1</a></li>
+                                <li><a href="">Service 2</a></li>
                             </ul>
                         </li>
-                        <li><a href="contact.html"><span>Contact</span></a></li>
+                        <li><a href=""><span>Contact</span></a></li>
                     </ul>
                     <!-- Header Nav Links End -->
                 </div>
             </div>
         </div>
         <!-- Header Navbar End -->
+
     </header>
     <!-- Header Section End -->
 
