@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0EBAC-CE14-414A-888E-71D5F877ADF4}|ProjectPRN\\ProjectPRN.csproj|d:\\study\\study_at_school\\fa24\\prn221\\project\\project_prn\\projectprn\\projectprn\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3BA0EBAC-CE14-414A-888E-71D5F877ADF4}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0EBAC-CE14-414A-888E-71D5F877ADF4}|ProjectPRN\\ProjectPRN.csproj|d:\\study\\study_at_school\\fa24\\prn221\\project\\project_prn\\projectprn\\projectprn\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3BA0EBAC-CE14-414A-888E-71D5F877ADF4}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0EBAC-CE14-414A-888E-71D5F877ADF4}|ProjectPRN\\ProjectPRN.csproj|d:\\study\\study_at_school\\fa24\\prn221\\project\\project_prn\\projectprn\\projectprn\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3BA0EBAC-CE14-414A-888E-71D5F877ADF4}|ProjectPRN\\ProjectPRN.csproj|solutionrelative:projectprn\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "custom.css",
+              "DocumentMoniker": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\ProjectPRN\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "ProjectPRN\\wwwroot\\css\\custom.css",
+              "ToolTip": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\ProjectPRN\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "ProjectPRN\\wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-28T03:10:31.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\ProjectPRN\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "ProjectPRN\\wwwroot\\css\\style.css",
+              "ToolTip": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\ProjectPRN\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "ProjectPRN\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAFQTAAAAAAAAAAAYwGQTAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-28T02:57:52.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\ProjectPRN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProjectPRN\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Study\\Study_At_School\\FA24\\PRN221\\Project\\PROJECT_PRN\\ProjectPRN\\ProjectPRN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProjectPRN\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAEsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T02:51:27.827Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
