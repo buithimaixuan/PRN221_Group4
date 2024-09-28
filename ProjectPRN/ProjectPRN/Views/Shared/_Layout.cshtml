@@ -70,16 +70,10 @@
         <!-- Header Topbar End -->
 
         <!-- Header Navbar Start -->
-        <div id="sticky--wrapper" class="header--navbar navbar" data-trigger="sticky">
+        <div id="sticky--wrapper" class="header--navbar">
             <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#headerNav">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
 
+                <div class="navbar-header">
                     <!-- Header Navbar Logo Start -->
                     <div class="header--navbar-logo navbar-brand">
                         <a href="">
@@ -90,25 +84,21 @@
                     <!-- Header Navbar Logo End -->
                 </div>
 
+                <div class="search--header">
+                    <form method="get" id="search--form">
+                        <input type="text" name="txtSearch" class="txtSearch" placeholder="Tìm kiếm"/>
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+
                 <div id="headerNav" class="float--right">
                     <!-- Header Nav Links Start -->
                     <ul class="header--nav-links style--1 nav ff--primary">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <span>Home</span>
-                                @* <i class="fa fa-caret-down"></i> *@
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a href=""><span>Home Version 1</span></a></li>
-                                <li><a href=""><span>Home Version 2</span></a></li>
-                                <li><a href=""><span>Home Version 3</span></a></li>
-                                <li><a href=""><span>Home Version 4</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <span>Community</span>
+                                <span>Trang chủ</span>
                                 @* <i class="fa fa-caret-down"></i> *@
                             </a>
 
@@ -134,7 +124,7 @@
                         
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <span>News</span>
+                                <span>Tin tức</span>
                                 @* <i class="fa fa-caret-down"></i> *@
                             </a>
 
@@ -147,7 +137,7 @@
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <span>Services</span>
+                                <span>Dịch vụ</span>
                                 @* <i class="fa fa-caret-down"></i> *@
                             </a>
 
@@ -157,7 +147,7 @@
                                 <li><a href="">Service 2</a></li>
                             </ul>
                         </li>
-                        <li><a href=""><span>Contact</span></a></li>
+                        <li><a href=""><span>Liên hệ hỗ trợ</span></a></li>
                     </ul>
                     <!-- Header Nav Links End -->
                 </div>

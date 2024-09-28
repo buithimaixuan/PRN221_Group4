@@ -4962,7 +4962,7 @@ body.isScrolling #backToTop {
 }
 
 .header--navbar > container {
-    display: flex;
+    display: block;
     flex-direction: row;
 }
 
